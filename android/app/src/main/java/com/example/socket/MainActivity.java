@@ -16,7 +16,7 @@ import java.net.Socket;
 
 public class MainActivity extends AppCompatActivity {
     private String serverAddr = "Change to your server's IPv4 address";
-    private int serverPort = 9999;
+    private int serverPort = 9998;
 
     private Socket socket;
     private BufferedReader in;
